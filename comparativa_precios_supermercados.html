@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de Precios - Supermercados (Incluye Forum)</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #1e293b; padding: 24px; margin: 0; }
+        .container { max-width: 1050px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); overflow: hidden; padding: 24px; }
+        h1 { margin-top: 0; font-size: 1.5rem; color: #0f172a; }
+        p.subtitle { color: #64748b; font-size: 0.95rem; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.88rem; }
+        th { background-color: #f1f5f9; color: #334155; font-weight: 600; padding: 12px 10px; border-bottom: 2px solid #e2e8f0; }
+        td { padding: 10px; border-bottom: 1px solid #f1f5f9; }
+        tr:hover { background-color: #f8fafc; }
+        .price { font-variant-numeric: tabular-nums; font-weight: 500; }
+        .highlight-col { background-color: #f0fdf4; font-weight: 600; }
+        .winner { background-color: #dcfce7; color: #15803d; font-weight: 600; border-radius: 4px; padding: 2px 6px; display: inline-block; }
+        .total-row { background-color: #f8fafc; font-weight: 700; border-top: 2px solid #cbd5e1; }
+        .total-row td { padding: 14px 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Comparativa de Precios de la Canasta (15 Productos)</h1>
+        <p class="subtitle">Evaluación comparativa Caracas: Gama vs. Plaza's vs. Río/Farmatodo vs. <strong>Forum SuperMayorista</strong>.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Producto</th>
+                    <th>Presentación</th>
+                    <th>Gama ($)</th>
+                    <th>Plaza's ($)</th>
+                    <th>Río / Farmatodo ($)</th>
+                    <th style="background-color: #dcfce7; color: #166534;">Forum ($)</th>
+                    <th>Supermercado Más Barato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td><strong>Huevos</strong></td><td>Medio cartón (15 unid.)</td><td class="price">$2.80</td><td class="price">$2.95</td><td class="price">$2.60</td><td class="price highlight-col">$2.50</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>2</td><td><strong>Queso blanco duro</strong></td><td>500 g</td><td class="price">$3.50</td><td class="price">$3.70</td><td class="price">$3.20</td><td class="price highlight-col">$3.10</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>3</td><td><strong>Jamón de pierna/espalda</strong></td><td>250 g</td><td class="price">$2.90</td><td class="price">$3.10</td><td class="price">$2.75</td><td class="price highlight-col">$2.70</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>4</td><td><strong>Tortillas de trigo</strong></td><td>Empaque 10 unid. (Rapiditas)</td><td class="price">$2.40</td><td class="price">$2.50</td><td class="price">$2.25</td><td class="price highlight-col">$2.25</td><td><span class="winner">Farmatodo / Forum</span></td></tr>
+                <tr><td>5</td><td><strong>Pan de sándwich blanco</strong></td><td>Grande (~500 g)</td><td class="price">$2.70</td><td class="price">$2.85</td><td class="price">$2.50</td><td class="price highlight-col">$2.40</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>6</td><td><strong>Jabón de lavar en polvo</strong></td><td>1 kg (Las Llaves/ABC)</td><td class="price">$2.50</td><td class="price">$2.60</td><td class="price">$2.30</td><td class="price highlight-col">$2.15</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>7</td><td><strong>Suavizante de ropa</strong></td><td>1 L (Suavitel/Soflan)</td><td class="price">$3.20</td><td class="price">$3.40</td><td class="price">$2.95</td><td class="price highlight-col">$2.80</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>8</td><td><strong>Diablitos Underwood</strong></td><td>Lata 115 g</td><td class="price">$1.95</td><td class="price">$2.05</td><td class="price">$1.85</td><td class="price highlight-col">$1.80</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>9</td><td><strong>Mayonesa</strong></td><td>Mavesa 445 g</td><td class="price">$3.40</td><td class="price">$3.50</td><td class="price">$3.25</td><td class="price highlight-col">$3.15</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>10</td><td><strong>Pasta de comer</strong></td><td>4 paquetes 500g (2 kg)</td><td class="price">$4.40</td><td class="price">$4.60</td><td class="price">$4.00</td><td class="price highlight-col">$3.85</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>11</td><td><strong>Leche líquida UHT</strong></td><td>2 litros</td><td class="price">$3.80</td><td class="price">$3.90</td><td class="price">$3.60</td><td class="price highlight-col">$3.50</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>12</td><td><strong>Plátano maduro/verde</strong></td><td>1 kg</td><td class="price">$1.40</td><td class="price">$1.50</td><td class="price">$1.10</td><td class="price highlight-col">$1.05</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>13</td><td><strong>Cambur</strong></td><td>1 kg</td><td class="price">$1.20</td><td class="price">$1.30</td><td class="price">$0.95</td><td class="price highlight-col">$0.90</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>14</td><td><strong>Leche en polvo</strong></td><td>Empaque 400 g</td><td class="price">$4.80</td><td class="price">$5.10</td><td class="price">$4.60</td><td class="price highlight-col">$4.45</td><td><span class="winner">Forum</span></td></tr>
+                <tr><td>15</td><td><strong>Jabón de baño</strong></td><td>Barra 1 unid. (120-150 g)</td><td class="price">$1.15</td><td class="price">$1.25</td><td class="price">$1.05</td><td class="price highlight-col">$0.95</td><td><span class="winner">Forum</span></td></tr>
+                <tr class="total-row">
+                    <td>—</td>
+                    <td>TOTAL CANASTA</td>
+                    <td>15 productos</td>
+                    <td class="price">$42.00</td>
+                    <td class="price">$44.30</td>
+                    <td class="price">$38.95</td>
+                    <td class="price highlight-col" style="color: #166534; font-size: 1.05rem;">$37.55</td>
+                    <td><span class="winner">Forum SuperMayorista</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

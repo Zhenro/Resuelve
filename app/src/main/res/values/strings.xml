@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resuelve Precios</string>
+    <string name="search_hint">Buscar producto (harina, queso, pollo, arroz)…</string>
+    <string name="bcv_loading">Consultando tasa oficial BCV…</string>
+    <string name="bcv_unavailable">Tasa BCV no disponible. Mostrando Ref.</string>
+    <string name="bcv_rate_format">Tasa BCV: Ref. 1 = Bs. %1$s</string>
+    <string name="savings_format">Ahorro: Ref. %1$s (%2$s%%)</string>
+    <string name="empty_results">No encontramos productos con ese nombre en Gama, Forum ni Central.</string>
+    <string name="idle_prompt">Explora las categorías o busca un producto para comparar precios en tiempo real.</string>
+    <string name="price_ref_format">Ref. %1$.2f</string>
+    <string name="price_ves_format">Bs. %1$s</string>
+    <string name="cheapest_badge">MÁS BARATO</string>
+
+    <!-- Navegación -->
+    <string name="nav_search">Comparador</string>
+    <string name="nav_shopping_list">Mi Lista</string>
+
+    <!-- Acciones en tarjetas -->
+    <string name="btn_add_to_list">Agregar a Lista</string>
+    <string name="btn_in_list">En tu Lista (%1$d)</string>
+    <string name="item_added_feedback">¡Producto agregado a tu lista de compras!</string>
+
+    <!-- Lista de compras -->
+    <string name="shopping_list_title">Mi Lista de Compras</string>
+    <string name="shopping_list_empty_title">Tu lista está vacía</string>
+    <string name="shopping_list_empty_desc">Busca productos y agrégalos con el botón "Agregar a Lista" para comparar qué supermercado te sale más barato en total.</string>
+    <string name="btn_clear_list">Vaciar lista</string>
+    <string name="clear_list_confirm">¿Seguro que deseas vaciar tu lista de compras?</string>
+    <string name="confirm_yes">Sí, vaciar</string>
+    <string name="confirm_no">Cancelar</string>
+
+    <!-- Tarjeta de comparación de cesta -->
+    <string name="basket_summary_title">Comparación de Cesta Total</string>
+    <string name="basket_winner_format">¡Comprando en %1$s ahorras Ref. %2$s (Bs. %3$s)!</string>
+    <string name="basket_items_available">%1$d/%2$d productos</string>
+    <string name="basket_not_available">No disponible</string>
+    <string name="basket_winner_badge">🏆 MEJOR OPCIÓN</string>
+</resources>

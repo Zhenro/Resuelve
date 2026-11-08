@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PreciosVe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vibrant_purple</item>
+        <item name="colorPrimaryDark">@color/deep_space_dark</item>
+        <item name="colorAccent">@color/vibrant_purple</item>
+        <item name="android:windowBackground">@color/deep_space_dark</item>
+        <item name="android:statusBarColor">@color/deep_space_dark</item>
+        <item name="android:navigationBarColor">@color/deep_space_dark</item>
+    </style>
+</resources>

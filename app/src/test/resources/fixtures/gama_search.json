@@ -1,0 +1,1508 @@
+﻿{
+   "type" : "productCategorySearchPageWsDTO",
+   "breadcrumbs" : [ ],
+   "bundles" : [ ],
+   "currentQuery" : {
+      "query" : {
+         "value" : "harina:relevance"
+      },
+      "url" : "/search?q=harina%3Arelevance"
+   },
+   "facets" : [ {
+      "category" : false,
+      "multiSelect" : true,
+      "name" : "Promociones",
+      "priority" : 2147483647,
+      "values" : [ {
+         "count" : 9,
+         "name" : "┬íSUPER DESCUENTO!",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allPromotions:10002884%26%26%C2%A1SUPER+DESCUENTO%21%26%26customergroup%26%26S007%26%2610.0%26%26true%26%26true%26%26true%26%26DP%26%26%23FFE600%26%26%23000000%26%26true%26%2610%25"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallPromotions%3A10002884%2526%2526%25C2%25A1SUPER%2BDESCUENTO%2521%2526%2526customergroup%2526%2526S007%2526%252610.0%2526%2526true%2526%2526true%2526%2526true%2526%2526DP%2526%2526%2523FFE600%2526%2526%2523000000%2526%2526true%2526%252610%2525"
+         },
+         "selected" : false
+      } ],
+      "visible" : true
+   }, {
+      "category" : false,
+      "multiSelect" : true,
+      "name" : "Precio",
+      "priority" : 2147483579,
+      "values" : [ {
+         "count" : 108,
+         "name" : "Ref. 0,01 - Ref. 4,99",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:totalCurrentPrice-notgamaclubcustomergroup##S007:Ref.+0%2C01+-+Ref.+4%2C99"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AtotalCurrentPrice-notgamaclubcustomergroup%23%23S007%3ARef.%2B0%252C01%2B-%2BRef.%2B4%252C99"
+         },
+         "selected" : false
+      }, {
+         "count" : 18,
+         "name" : "Ref. 5,00 - Ref. 14,99",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:totalCurrentPrice-notgamaclubcustomergroup##S007:Ref.+5%2C00+-+Ref.+14%2C99"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AtotalCurrentPrice-notgamaclubcustomergroup%23%23S007%3ARef.%2B5%252C00%2B-%2BRef.%2B14%252C99"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Ref. 15,00 en adelante",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:totalCurrentPrice-notgamaclubcustomergroup##S007:Ref.+15%2C00+en+adelante"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AtotalCurrentPrice-notgamaclubcustomergroup%23%23S007%3ARef.%2B15%252C00%2Ben%2Badelante"
+         },
+         "selected" : false
+      } ],
+      "visible" : true
+   }, {
+      "category" : false,
+      "multiSelect" : true,
+      "name" : "Precio",
+      "priority" : 2147483411,
+      "values" : [ {
+         "count" : 108,
+         "name" : "Ref. 0,01 - Ref. 4,99",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:price:Ref.+0%2C01+-+Ref.+4%2C99"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Aprice%3ARef.%2B0%252C01%2B-%2BRef.%2B4%252C99"
+         },
+         "selected" : false
+      }, {
+         "count" : 18,
+         "name" : "Ref. 5,00 - Ref. 14,99",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:price:Ref.+5%2C00+-+Ref.+14%2C99"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Aprice%3ARef.%2B5%252C00%2B-%2BRef.%2B14%252C99"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Ref. 15,00 en adelante",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:price:Ref.+15%2C00+en+adelante"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Aprice%3ARef.%2B15%252C00%2Ben%2Badelante"
+         },
+         "selected" : false
+      } ],
+      "visible" : true
+   }, {
+      "category" : false,
+      "multiSelect" : false,
+      "name" : "Marca",
+      "priority" : 2147483410,
+      "topValues" : [ {
+         "count" : 7,
+         "name" : "Allegri",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Allegri"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AAllegri"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "Barilla",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Barilla"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ABarilla"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Bimbo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Bimbo"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ABimbo"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Capri",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Capri"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ACapri"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Casabe Crunch",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Casabe+Crunch"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ACasabe%2BCrunch"
+         },
+         "selected" : false
+      } ],
+      "values" : [ {
+         "count" : 7,
+         "name" : "Allegri",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Allegri"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AAllegri"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "Barilla",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Barilla"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ABarilla"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Bimbo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Bimbo"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ABimbo"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Capri",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Capri"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ACapri"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Casabe Crunch",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Casabe+Crunch"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ACasabe%2BCrunch"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Celestial",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Celestial"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ACelestial"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Colavita",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Colavita"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AColavita"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "De Cecco",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:De+Cecco"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ADe%2BCecco"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Divella",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Divella"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ADivella"
+         },
+         "selected" : false
+      }, {
+         "count" : 13,
+         "name" : "Eduardo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Eduardo"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AEduardo"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Focaccinis",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Focaccinis"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AFocaccinis"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Fratelli",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Fratelli"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AFratelli"
+         },
+         "selected" : false
+      }, {
+         "count" : 6,
+         "name" : "Galo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Galo"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AGalo"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Gama",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Gama"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AGama"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Glade",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Glade"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AGlade"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Gourmet",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Gourmet"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AGourmet"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Harinana",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Harinana"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AHarinana"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Indessa",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Indessa"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AIndessa"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Kaldini",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Kaldini"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AKaldini"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "La Granja",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:La+Granja"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ALa%2BGranja"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "La Lucha",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:La+Lucha"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ALa%2BLucha"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Magic Blends",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Magic+Blends"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AMagic%2BBlends"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Marine",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Marine"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AMarine"
+         },
+         "selected" : false
+      }, {
+         "count" : 16,
+         "name" : "Mary",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Mary"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AMary"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Nucita",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Nucita"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ANucita"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "P.A.N",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:P.A.N"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AP.A.N"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Pato",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Pato"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3APato"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Pepito",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Pepito"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3APepito"
+         },
+         "selected" : false
+      }, {
+         "count" : 12,
+         "name" : "Primor",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Primor"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3APrimor"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Quaker",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Quaker"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AQuaker"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Ricardo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Ricardo"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ARicardo"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Riscossa",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Riscossa"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ARiscossa"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Ronco",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Ronco"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ARonco"
+         },
+         "selected" : false
+      }, {
+         "count" : 8,
+         "name" : "Sarina",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Sarina"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ASarina"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Sindoni",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Sindoni"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3ASindoni"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Vegan Life",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:manufacturerAID:Vegan+Life"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AmanufacturerAID%3AVegan%2BLife"
+         },
+         "selected" : false
+      } ],
+      "visible" : true
+   }, {
+      "category" : true,
+      "multiSelect" : false,
+      "name" : "Categor├¡as",
+      "priority" : 2147483409,
+      "topValues" : [ {
+         "count" : 113,
+         "name" : "Despensa",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01"
+         },
+         "selected" : false
+      }, {
+         "count" : 100,
+         "name" : "Harinas y pastas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0102"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0102"
+         },
+         "selected" : false
+      }, {
+         "count" : 84,
+         "name" : "Pasta",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010204"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010204"
+         },
+         "selected" : false
+      }, {
+         "count" : 58,
+         "name" : "Pasta nacional",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01020401"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01020401"
+         },
+         "selected" : false
+      }, {
+         "count" : 23,
+         "name" : "Pasta importada",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01020402"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01020402"
+         },
+         "selected" : false
+      } ],
+      "values" : [ {
+         "count" : 113,
+         "name" : "Despensa",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01"
+         },
+         "selected" : false
+      }, {
+         "count" : 100,
+         "name" : "Harinas y pastas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0102"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0102"
+         },
+         "selected" : false
+      }, {
+         "count" : 84,
+         "name" : "Pasta",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010204"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010204"
+         },
+         "selected" : false
+      }, {
+         "count" : 58,
+         "name" : "Pasta nacional",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01020401"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01020401"
+         },
+         "selected" : false
+      }, {
+         "count" : 23,
+         "name" : "Pasta importada",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01020402"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01020402"
+         },
+         "selected" : false
+      }, {
+         "count" : 16,
+         "name" : "Limpieza",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A07"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA07"
+         },
+         "selected" : false
+      }, {
+         "count" : 10,
+         "name" : "Accesorios de limpieza",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0705"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0705"
+         },
+         "selected" : false
+      }, {
+         "count" : 8,
+         "name" : "Harinas especialidades",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010203"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010203"
+         },
+         "selected" : false
+      }, {
+         "count" : 6,
+         "name" : "Harina de ma├¡z",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010201"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010201"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Panader├¡a",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0111"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0111"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "Dulces, galletas y reposter├¡a",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0106"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0106"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "Galletas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010602"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010602"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Pasta lista",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A01020403"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA01020403"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Tortillas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A011103"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA011103"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Escobas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070502"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070502"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Cuidado del veh├¡culo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0709"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0709"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Limpieza automotriz",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070904"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070904"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Harina de trigo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010202"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010202"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Salsas y especias",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0110"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0110"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Sal",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A011001"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA011001"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Casabe",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A011104"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA011104"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Multisuperficie",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0704"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0704"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Desinfectantes",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070404"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070404"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Pa├▒os",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070501"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070501"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Snacks",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0105"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0105"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Palitos de queso",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A010503"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA010503"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Cereales",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0115"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0115"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Diet├®tico y naturista",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A011502"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA011502"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Limpiadores de ba├▒o",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A0702"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA0702"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Guantes",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070503"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070503"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Coleto",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070504"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070504"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Esponjas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:allCategories:A070505"
+            },
+            "url" : "/search?q=harina%3Arelevance%3AallCategories%3AA070505"
+         },
+         "selected" : false
+      } ],
+      "visible" : true
+   }, {
+      "category" : true,
+      "multiSelect" : false,
+      "name" : "Categor├¡a",
+      "priority" : 2147483408,
+      "values" : [ {
+         "count" : 10,
+         "name" : "Accesorios de limpieza",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0705"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0705"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Casabe",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A011104"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA011104"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Cereales",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0115"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0115"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Coleto",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070504"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070504"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Cuidado del veh├¡culo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0709"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0709"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Desinfectantes",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070404"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070404"
+         },
+         "selected" : false
+      }, {
+         "count" : 113,
+         "name" : "Despensa",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A01"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA01"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Diet├®tico y naturista",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A011502"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA011502"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "Dulces, galletas y reposter├¡a",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0106"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0106"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Escobas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070502"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070502"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Esponjas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070505"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070505"
+         },
+         "selected" : false
+      }, {
+         "count" : 4,
+         "name" : "Galletas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A010602"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA010602"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Guantes",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070503"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070503"
+         },
+         "selected" : false
+      }, {
+         "count" : 6,
+         "name" : "Harina de ma├¡z",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A010201"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA010201"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Harina de trigo",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A010202"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA010202"
+         },
+         "selected" : false
+      }, {
+         "count" : 8,
+         "name" : "Harinas especialidades",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A010203"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA010203"
+         },
+         "selected" : false
+      }, {
+         "count" : 100,
+         "name" : "Harinas y pastas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0102"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0102"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Limpiadores de ba├▒o",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0702"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0702"
+         },
+         "selected" : false
+      }, {
+         "count" : 16,
+         "name" : "Limpieza",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A07"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA07"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Limpieza automotriz",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070904"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070904"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Multisuperficie",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0704"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0704"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Palitos de queso",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A010503"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA010503"
+         },
+         "selected" : false
+      }, {
+         "count" : 5,
+         "name" : "Panader├¡a",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0111"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0111"
+         },
+         "selected" : false
+      }, {
+         "count" : 84,
+         "name" : "Pasta",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A010204"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA010204"
+         },
+         "selected" : false
+      }, {
+         "count" : 23,
+         "name" : "Pasta importada",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A01020402"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA01020402"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Pasta lista",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A01020403"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA01020403"
+         },
+         "selected" : false
+      }, {
+         "count" : 58,
+         "name" : "Pasta nacional",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A01020401"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA01020401"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Pa├▒os",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A070501"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA070501"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Sal",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A011001"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA011001"
+         },
+         "selected" : false
+      }, {
+         "count" : 2,
+         "name" : "Salsas y especias",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0110"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0110"
+         },
+         "selected" : false
+      }, {
+         "count" : 1,
+         "name" : "Snacks",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A0105"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA0105"
+         },
+         "selected" : false
+      }, {
+         "count" : 3,
+         "name" : "Tortillas",
+         "query" : {
+            "query" : {
+               "value" : "harina:relevance:category:A011103"
+            },
+            "url" : "/search?q=harina%3Arelevance%3Acategory%3AA011103"
+         },
+         "selected" : false
+      } ],
+      "visible" : true
+   } ],
+   "freeTextSearch" : "harina",
+   "pagination" : {
+      "currentPage" : 0,
+      "pageSize" : 5,
+      "sort" : "relevance",
+      "totalPages" : 26,
+      "totalResults" : 129
+   },
+   "products" : [ {
+      "basePriceWithDiscount" : {
+         "formattedValue" : "Ref.2.00"
+      },
+      "categories" : [ {
+         "name" : "Despensa"
+      }, {
+         "name" : "Harinas y pastas"
+      }, {
+         "name" : "Harina de ma├¡z"
+      } ],
+      "code" : "10035499",
+      "configurable" : false,
+      "configuratorType" : "",
+      "images" : [ {
+         "altText" : "HARINA DE MAIZ BLANCO MARY 2 KG",
+         "format" : "thumbnail",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/96Wx96H-1200-baseFormat-1200-baseFormat-10035499-1-10035499?context=bWFzdGVyfGltYWdlc3wyNTIzMnxpbWFnZS9qcGVnfGFEazFMMmd3Tnk4eE1UYzVPRFkyTWpFMU1qSXlNaTg1TmxkNE9UWklYekV5TURCZlltRnpaVVp2Y20xaGRGOHhNakF3WDJKaGMyVkdiM0p0WVhSZk1UQXdNelUwT1RrdE1WOHhNREF6TlRRNU9RfDRiZDE5MjFhYjZjMDczOTAwODcyMmFlMzMyMDc0OGRmMjdjNGZkY2UxZjhhYjFkYjMzNThjNjZlMTZiODE0MzI"
+      }, {
+         "altText" : "HARINA DE MAIZ BLANCO MARY 2 KG",
+         "format" : "product",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/300Wx300H-1200-baseFormat-1200-baseFormat-10035499-1-10035499?context=bWFzdGVyfGltYWdlc3w4NjMzMHxpbWFnZS9qcGVnfGFHRTNMMmd3WVM4eE1UYzVPRFkyTWpBNE5qWTROaTh6TURCWGVETXdNRWhmTVRJd01GOWlZWE5sUm05eWJXRjBYekV5TURCZlltRnpaVVp2Y20xaGRGOHhNREF6TlRRNU9TMHhYekV3TURNMU5EazV8ZWVlZjgzMzhhYjg4NWY0MTdmOTJmZjgzYjE4NTYzYzBlNTI4N2ZjMjg3NzdiMDAxNzE0YmU0NzQxOTcwYjljMQ"
+      } ],
+      "name" : "<em class=\"search-results-highlight\">HARINA</em> DE MAIZ BLANCO MARY 2 KG",
+      "price" : {
+         "currencyIso" : "REF",
+         "formattedValue" : "Ref.2.00",
+         "priceType" : "BUY",
+         "value" : 2.0
+      },
+      "score" : 1967119.0,
+      "seoName" : "harina-maiz-blanco-mary-2-kg",
+      "stock" : {
+         "isValueRounded" : false,
+         "stockLevel" : 340,
+         "stockLevelStatus" : "inStock"
+      },
+      "taxWithDiscount" : {
+         "formattedValue" : "Ref.0.00",
+         "value" : 0.0
+      },
+      "totalWithVatPrice" : {
+         "formattedValue" : "Ref.2.00",
+         "value" : 2.0
+      },
+      "variantOptions" : [ ]
+   }, {
+      "basePriceWithDiscount" : {
+         "formattedValue" : "Ref.0.95"
+      },
+      "categories" : [ {
+         "name" : "Despensa"
+      }, {
+         "name" : "Harinas y pastas"
+      }, {
+         "name" : "Harina de ma├¡z"
+      } ],
+      "code" : "10035338",
+      "configurable" : false,
+      "configuratorType" : "",
+      "images" : [ {
+         "altText" : "HARINA DE MAIZ BLANCO MARY 900 GR",
+         "format" : "thumbnail",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/96Wx96H-1200-baseFormat-1200-baseFormat-10035338-1-10035338?context=bWFzdGVyfGltYWdlc3wyMTc1NHxpbWFnZS9qcGVnfGFHSmtMMmhsWWk4eE1ETTBORFU0TWpRME56RXpOQzg1TmxkNE9UWklYekV5TURCZlltRnpaVVp2Y20xaGRGOHhNakF3WDJKaGMyVkdiM0p0WVhSZk1UQXdNelV6TXpndE1WOHhNREF6TlRNek9BfGM3Y2M3OWE2Yjg1MWNhOGI2YmZmZDAwMjg1N2QwMzJiMTI4MmU2NjVjZjY1ZTdhOGRkODY5YzEyYzhlMDczMjk"
+      }, {
+         "altText" : "HARINA DE MAIZ BLANCO MARY 900 GR",
+         "format" : "product",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/300Wx300H-1200-baseFormat-1200-baseFormat-10035338-1-10035338?context=bWFzdGVyfGltYWdlc3w3NTExOXxpbWFnZS9qcGVnfGFHSm1MMmhsT0M4eE1ETTBORFU0TWpNNE1UVTVPQzh6TURCWGVETXdNRWhmTVRJd01GOWlZWE5sUm05eWJXRjBYekV5TURCZlltRnpaVVp2Y20xaGRGOHhNREF6TlRNek9DMHhYekV3TURNMU16TTR8OTc5NmY1NGE0MzQ5YTg3Y2ZkM2Y0NWRhMjY2NDc3OTU4ZWM1YzIyNmQ0MDExNDllN2E5ZDBkZGIxMjk5MjZmYg"
+      } ],
+      "name" : "<em class=\"search-results-highlight\">HARINA</em> DE MAIZ BLANCO MARY 900 GR",
+      "price" : {
+         "currencyIso" : "REF",
+         "formattedValue" : "Ref.0.95",
+         "priceType" : "BUY",
+         "value" : 0.95
+      },
+      "score" : 1835955.6,
+      "seoName" : "harina-maiz-blanco-mary-900-gr",
+      "stock" : {
+         "isValueRounded" : false,
+         "stockLevel" : 1960,
+         "stockLevelStatus" : "inStock"
+      },
+      "taxWithDiscount" : {
+         "formattedValue" : "Ref.0.00",
+         "value" : 0.0
+      },
+      "totalWithVatPrice" : {
+         "formattedValue" : "Ref.0.95",
+         "value" : 0.95
+      },
+      "variantOptions" : [ ]
+   }, {
+      "basePriceWithDiscount" : {
+         "formattedValue" : "Ref.0.95"
+      },
+      "categories" : [ {
+         "name" : "Despensa"
+      }, {
+         "name" : "Harinas y pastas"
+      }, {
+         "name" : "Harina de trigo"
+      } ],
+      "code" : "10032019",
+      "configurable" : false,
+      "configuratorType" : "",
+      "images" : [ {
+         "altText" : "HARINA DE TRIGO MARY TODO USO 900 GR",
+         "format" : "thumbnail",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/96Wx96H-1200-baseFormat-1200-baseFormat-10032019-12-10032019?context=bWFzdGVyfGltYWdlc3wyMDczM3xpbWFnZS9qcGVnfGFEZGtMMmcwTWk4NE9EQTBOekUzTmpVNE1UUXlMemsyVjNnNU5raGZNVEl3TUY5aVlYTmxSbTl5YldGMFh6RXlNREJmWW1GelpVWnZjbTFoZEY4eE1EQXpNakF4T1MweE1sOHhNREF6TWpBeE9RfGNhMjBlM2E3NGI1N2QzNmI0MDUxYzcyYzNmNjUwZjAxZDQ3ODYzODM0MTUwYWQyNzlmMmEyNDFjNjA5M2FlODg"
+      }, {
+         "altText" : "HARINA DE TRIGO MARY TODO USO 900 GR",
+         "format" : "product",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/300Wx300H-1200-baseFormat-1200-baseFormat-10032019-12-10032019?context=bWFzdGVyfGltYWdlc3w2MDc4MHxpbWFnZS9qcGVnfGFEZGpMMmcwTlM4NE9EQTBOekUzTlRreU5qQTJMek13TUZkNE16QXdTRjh4TWpBd1gySmhjMlZHYjNKdFlYUmZNVEl3TUY5aVlYTmxSbTl5YldGMFh6RXdNRE15TURFNUxURXlYekV3TURNeU1ERTV8NTJlYzBlYjM4Y2Y3NmU1YWYwMGNlODAwMTIyOGE1OGE2MWViMjVjNmZhMTk0YzBiZWJhOTgxZDk0NzRmZWQxMA"
+      } ],
+      "name" : "<em class=\"search-results-highlight\">HARINA</em> DE TRIGO MARY TODO USO 900 GR",
+      "price" : {
+         "currencyIso" : "REF",
+         "formattedValue" : "Ref.0.95",
+         "priceType" : "BUY",
+         "value" : 0.95
+      },
+      "score" : 1721190.2,
+      "seoName" : "harina-trigo-mary-todo-uso-900-gr",
+      "stock" : {
+         "isValueRounded" : false,
+         "stockLevel" : 0,
+         "stockLevelStatus" : "outOfStock"
+      },
+      "taxWithDiscount" : {
+         "formattedValue" : "Ref.0.00",
+         "value" : 0.0
+      },
+      "totalWithVatPrice" : {
+         "formattedValue" : "Ref.0.95",
+         "value" : 0.95
+      },
+      "variantOptions" : [ ]
+   }, {
+      "basePriceWithDiscount" : {
+         "formattedValue" : "Ref.0.98"
+      },
+      "categories" : [ {
+         "name" : "Despensa"
+      }, {
+         "name" : "Harinas y pastas"
+      }, {
+         "name" : "Harina de trigo"
+      } ],
+      "code" : "10035349",
+      "configurable" : false,
+      "configuratorType" : "",
+      "images" : [ {
+         "altText" : "HARINA DE TRIGO LEUDANTE ENRIQUECIDA MARY 900 GR",
+         "format" : "thumbnail",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/96Wx96H-1200-baseFormat-1200-baseFormat-10035349-1-10035349?context=bWFzdGVyfGltYWdlc3wxODUyOHxpbWFnZS9qcGVnfGFEWTRMMmd5Tmk4eE1EazJORGswTkRZNE16QXpPQzg1TmxkNE9UWklYekV5TURCZlltRnpaVVp2Y20xaGRGOHhNakF3WDJKaGMyVkdiM0p0WVhSZk1UQXdNelV6TkRrdE1WOHhNREF6TlRNME9RfGY3ZGQyZTU4MzcyZDYyZTczN2NlNDdhOGIzZTIxNjY0NTM5ZGU5OWYyNjQ2MTAwYjllNTM2NzU4YzA1YjcxMTI"
+      }, {
+         "altText" : "HARINA DE TRIGO LEUDANTE ENRIQUECIDA MARY 900 GR",
+         "format" : "product",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/300Wx300H-1200-baseFormat-1200-baseFormat-10035349-1-10035349?context=bWFzdGVyfGltYWdlc3w2MzkyNnxpbWFnZS9qcGVnfGFESTVMMmd5Tnk4eE1EazJORGswTkRZeE56VXdNaTh6TURCWGVETXdNRWhmTVRJd01GOWlZWE5sUm05eWJXRjBYekV5TURCZlltRnpaVVp2Y20xaGRGOHhNREF6TlRNME9TMHhYekV3TURNMU16UTV8MTgxNjY5YTY4ZTEyOWU3ZWZjMDZhNmYzYzA2Y2M1MGI2NWY4YjFhNzIzYzRhNTAyYTgxZTI2N2NkMzg4YWYwYw"
+      } ],
+      "name" : "<em class=\"search-results-highlight\">HARINA</em> DE TRIGO LEUDANTE ENRIQUECIDA MARY 900 GR",
+      "price" : {
+         "currencyIso" : "REF",
+         "formattedValue" : "Ref.0.98",
+         "priceType" : "BUY",
+         "value" : 0.98
+      },
+      "score" : 1721190.2,
+      "seoName" : "harina-trigo-leudante-enriquecida-mary-900-gr",
+      "stock" : {
+         "isValueRounded" : false,
+         "stockLevel" : 195,
+         "stockLevelStatus" : "inStock"
+      },
+      "taxWithDiscount" : {
+         "formattedValue" : "Ref.0.00",
+         "value" : 0.0
+      },
+      "totalWithVatPrice" : {
+         "formattedValue" : "Ref.0.98",
+         "value" : 0.98
+      },
+      "variantOptions" : [ ]
+   }, {
+      "basePriceWithDiscount" : {
+         "formattedValue" : "Ref.0.98"
+      },
+      "categories" : [ {
+         "name" : "Despensa"
+      }, {
+         "name" : "Harinas y pastas"
+      }, {
+         "name" : "Harina de ma├¡z"
+      } ],
+      "code" : "10011758",
+      "configurable" : false,
+      "configuratorType" : "",
+      "images" : [ {
+         "altText" : "HARINA MA├ìZ BLANCO Y ARROZ P.A.N. 1 KG",
+         "format" : "thumbnail",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/96Wx96H-1200-baseFormat-1200-baseFormat-10011758-1-10011758?context=bWFzdGVyfGltYWdlc3wyMjIyMHxpbWFnZS9qcGVnfGFEYzBMMmd3T0M4NE9EQXhPRFE0TnpJeE5ETTRMemsyVjNnNU5raGZNVEl3TUY5aVlYTmxSbTl5YldGMFh6RXlNREJmWW1GelpVWnZjbTFoZEY4eE1EQXhNVGMxT0MweFh6RXdNREV4TnpVNHw2MGE3ZmFmNDU4YjNiMWQyNWVjNzI3M2IzMzVlNWFmZTY3NGM1NjVlNDlkNDEyNzExNmJjMDUxYmE4YTMzZmFm"
+      }, {
+         "altText" : "HARINA MA├ìZ BLANCO Y ARROZ P.A.N. 1 KG",
+         "format" : "product",
+         "imageType" : "PRIMARY",
+         "url" : "/medias/300Wx300H-1200-baseFormat-1200-baseFormat-10011758-1-10011758?context=bWFzdGVyfGltYWdlc3w3MDkzMXxpbWFnZS9qcGVnfGFEWXpMMmd3TlM4NE9EQXhPRFE0TmpVMU9UQXlMek13TUZkNE16QXdTRjh4TWpBd1gySmhjMlZHYjNKdFlYUmZNVEl3TUY5aVlYTmxSbTl5YldGMFh6RXdNREV4TnpVNExURmZNVEF3TVRFM05UZ3w0ZTU3ODI4NDg4YjQyODQ3MmQ3ZmFjOTFhNDJiNmQ3NTcwYWUzMWM2YjlkMTQ4N2RhMzc4OTE0NDE0NjgwZWVl"
+      } ],
+      "name" : "<em class=\"search-results-highlight\">HARINA</em> MA├ìZ BLANCO Y ARROZ P.A.N. 1 KG",
+      "price" : {
+         "currencyIso" : "REF",
+         "formattedValue" : "Ref.0.98",
+         "priceType" : "BUY",
+         "value" : 0.98
+      },
+      "score" : 1721190.2,
+      "seoName" : "harina-maiz-blanco-arroz-pan-1-kg",
+      "stock" : {
+         "isValueRounded" : false,
+         "stockLevel" : 128,
+         "stockLevelStatus" : "inStock"
+      },
+      "taxWithDiscount" : {
+         "formattedValue" : "Ref.0.00",
+         "value" : 0.0
+      },
+      "totalWithVatPrice" : {
+         "formattedValue" : "Ref.0.98",
+         "value" : 0.98
+      },
+      "variantOptions" : [ ]
+   } ],
+   "sorts" : [ {
+      "code" : "relevance",
+      "name" : "Relevancia",
+      "selected" : true
+   }, {
+      "code" : "topRated",
+      "name" : "Los m├ís valorados",
+      "selected" : false
+   }, {
+      "code" : "name-asc",
+      "name" : "Nombre (ascendente)",
+      "selected" : false
+   }, {
+      "code" : "name-desc",
+      "name" : "Nombre (descendente)",
+      "selected" : false
+   }, {
+      "code" : "totalCurrentPrice-notgamaclubcustomergroup##S007-asc",
+      "name" : "Precio (El m├ís bajo primero)",
+      "selected" : false
+   }, {
+      "code" : "totalCurrentPrice-notgamaclubcustomergroup##S007-desc",
+      "name" : "Precio (El m├ís alto primero)",
+      "selected" : false
+   }, {
+      "code" : "brand-ascendant",
+      "name" : "Marca (ascendente)",
+      "selected" : false
+   }, {
+      "code" : "brand-descendant",
+      "name" : "Marca (descendiente)",
+      "selected" : false
+   } ]
+}

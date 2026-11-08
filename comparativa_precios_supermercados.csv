@@ -1,0 +1,17 @@
+ID,Producto,Presentacion,Precio_Gama_USD,Precio_Plazas_USD,Precio_Rio_Farmatodo_USD,Precio_Forum_USD,Supermercado_Mas_Barato
+1,Huevos,Medio carton (15 unid.),2.80,2.95,2.60,2.50,Forum SuperMayorista
+2,Queso blanco duro,500 g,3.50,3.70,3.20,3.10,Forum SuperMayorista
+3,Jamon de pierna/espalda,250 g,2.90,3.10,2.75,2.70,Forum SuperMayorista
+4,Tortillas de trigo,Empaque 10 unid. (Rapiditas),2.40,2.50,2.25,2.25,Farmatodo / Forum
+5,Pan de sandwich blanco,Grande (~500 g),2.70,2.85,2.50,2.40,Forum SuperMayorista
+6,Jabon de lavar en polvo,1 kg (Las Llaves/ABC),2.50,2.60,2.30,2.15,Forum SuperMayorista
+7,Suavizante de ropa,1 L (Suavitel/Soflan),3.20,3.40,2.95,2.80,Forum SuperMayorista
+8,Diablitos Underwood,Lata 115 g,1.95,2.05,1.85,1.80,Forum SuperMayorista
+9,Mayonesa,Mavesa 445 g,3.40,3.50,3.25,3.15,Forum SuperMayorista
+10,Pasta de comer,4 paquetes 500g (2 kg),4.40,4.60,4.00,3.85,Forum SuperMayorista
+11,Leche liquida UHT,2 litros,3.80,3.90,3.60,3.50,Forum SuperMayorista
+12,Platano maduro/verde,1 kg,1.40,1.50,1.10,1.05,Forum SuperMayorista
+13,Cambur,1 kg,1.20,1.30,0.95,0.90,Forum SuperMayorista
+14,Leche en polvo,Empaque 400 g,4.80,5.10,4.60,4.45,Forum SuperMayorista
+15,Jabon de bano,Barra 1 unid. (120-150 g),1.15,1.25,1.05,0.95,Forum SuperMayorista
+TOTAL,Cesta completa estimada,15 productos,42.00,44.30,38.95,37.55,Forum SuperMayorista

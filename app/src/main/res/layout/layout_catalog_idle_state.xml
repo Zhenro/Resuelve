@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutCatalogIdle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Banner descriptivo con gradiente suave -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ticket_card"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🛒 Tu comparador inteligente"
+                android:textColor="@color/vibrant_purple"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Precios en vivo de Gama, Forum y Central"
+                android:textColor="@color/text_dark_primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Escribe un producto o toca una sugerencia abajo para comparar disponibilidad y mejores ofertas."
+                android:textColor="@color/text_dark_secondary"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <!-- Sección de Búsquedas Recientes Persistentes -->
+        <LinearLayout
+            android:id="@+id/layoutRecentSearchesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="🕒 BÚSQUEDAS RECIENTES"
+                    android:textColor="@color/text_dark_secondary"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnClearRecentSearches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="4dp"
+                    android:text="Borrar todo"
+                    android:textColor="@color/vibrant_purple"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipGroupRecentSearches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:chipSpacingHorizontal="6dp"
+                app:chipSpacingVertical="6dp" />
+
+        </LinearLayout>
+
+        <!-- Sección de Búsquedas Populares -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="🔥 BÚSQUEDAS FRECUENTES EN CARACAS"
+            android:textColor="@color/text_dark_secondary"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <!-- Rejilla / Flow de chips populares -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupPopular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chipSpacingHorizontal="8dp"
+            app:chipSpacingVertical="8dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHarinaPan"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌽 Harina P.A.N."
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/store_forum_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipArrozMary"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍚 Arroz Mary"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/store_gama_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipYoka"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥛 Yogurt Yoka"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/vibrant_purple_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCharmy"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍪 Galletas Charmy"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/vibrant_gold_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipOreo"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍫 Oreo"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/store_forum_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLeche"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥛 Leche en Polvo"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/store_gama_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPasta"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍝 Pasta Ronco"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/store_central_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCafe"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="☕ Café Molido"
+                android:textColor="@color/text_dark_primary"
+                app:chipBackgroundColor="@color/vibrant_gold_light"
+                app:chipCornerRadius="16dp"
+                app:chipStrokeColor="@color/card_border"
+                app:chipStrokeWidth="1dp" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Tarjetas explicativas de cómo ahorrar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="⚡ CÓMO RESUELVE TUS COMPRAS"
+            android:textColor="@color/text_dark_secondary"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ticket_card"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/bg_search_capsule"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/vibrant_purple"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="Busca el producto y agrégalo a tu lista con 1 toque."
+                    android:textColor="@color/text_dark_primary"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/bg_search_capsule"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/vibrant_purple"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="En 'Mi Lista' evaluamos el total en Gama, Forum y Central."
+                    android:textColor="@color/text_dark_primary"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/bg_search_capsule"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/vibrant_purple"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="Ahorra sabiendo exactamente a qué comercio ir a comprar."
+                    android:textColor="@color/text_dark_primary"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,15 @@
+﻿{
+   "currencies" : [ {
+      "active" : true,
+      "conversion" : "1,00",
+      "isocode" : "VES",
+      "name" : "Bol├¡var Soberano",
+      "symbol" : "Bs."
+   }, {
+      "active" : true,
+      "conversion" : "880,12",
+      "isocode" : "REF",
+      "name" : "D├│lar Petrolero",
+      "symbol" : "Ref."
+   } ]
+}
